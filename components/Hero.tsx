@@ -43,18 +43,26 @@ const Hero = () => {
         </div>
 
         {/* Text Block 1 */}
-        <div className="order-2 lg:order-1 lg:col-span-4 p-4 border-r-2 border-black">
+        <div className="order-2 lg:order-1 lg:col-span-4 p-4 border-r-2 border-black flex flex-col">
           <h1 className="text-4xl font-bold mb-4">GUIDED BY EXPERTS</h1>
-          <p className="mt-6 mb-10">
-            Our facilities are designed to help you reach your fitness goals,
+
+          <p className="mt-auto mb-10">
+            Our certified trainers are here to support and motivate you every
+            step of the way. Train like an athlete with our top-tier equipment
+            and expert programming. Whether you are building muscles or PRs, we
+            help you push limits.
           </p>
         </div>
 
         {/* Text Block 2 */}
-        <div className="order-3 lg:order-2 lg:col-span-4 p-4">
+        <div className="order-3 lg:order-2 lg:col-span-4 p-4 flex flex-col">
           <h1 className="text-4xl font-bold mb-4">DYNAMIC OPEN GYM</h1>
-          <p className="mt-6 mb-10">
-            Our facilities are designed to help you reach your fitness goals,
+
+          <p className="mt-auto mb-10">
+            Our certified trainers are here to support and motivate you every
+            step of the way. Train like an athlete with our top-tier equipment
+            and expert programming. Whether you are building muscles or PRs, we
+            help you push limits.
           </p>
         </div>
       </div>
