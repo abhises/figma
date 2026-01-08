@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#E9ECFF] w-full h-170 p-8">
+    <div className="bg-[#E9ECFF] w-full h-170 lg:h-120 p-8">
       <div className="grid grid-cols-1 lg:grid-cols-2  gap-4">
         <div>
           <Image
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 mt:20 lg:mt-40">
+      <div className="grid grid-cols-1 lg:grid-cols-12 mt:20 lg:mt-45">
         <div className="col-span-4">
           <h1 className="text-xl font-bold mb-4">CONTACT</h1>
           <p className="text-gray-600">123 Fitness Street, Gym City</p>

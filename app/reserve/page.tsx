@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Reserve = () => {
   return (
-    <div>
+    <div className="flex flex-col overflow-x-hidden">
       <div className="bg-[#FFFFFF] p-2 h-32 w-screen flex  justify-center ">
         <p className="text-3xl sm:text-7xl md:9xl font-bold ">
           <span className="sm:inline text-[#000000]">BOOK A </span>

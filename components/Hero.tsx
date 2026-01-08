@@ -5,14 +5,14 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="flex flex-col overflow-x-hidden">
-      <div className="bg-[#FFFFFF] p-2 h-32 w-screen flex  justify-center ">
+      <div className="bg-[#FFFFFF] p-2 h-20 lg:h-32 w-screen flex  justify-center ">
         <p className="text-3xl sm:text-7xl md:9xl font-bold ">
           <span className="sm:inline text-[#000000]">Train Hard.</span>
           <span className="sm:inline text-[#808DFD] ">Live Better</span>
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-12 bg-[#E9ECFF] ">
-        <div className="sm:col-span-9 ">
+        <div className="relative sm:col-span-9 ">
           <Image src="/Image.png" alt="Hero Image" height={500} width={1200} />
         </div>
 
