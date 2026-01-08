@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col overflow-x-hidden">
       <div className="bg-[#FFFFFF] p-2 h-20 lg:h-32 w-screen flex  justify-center ">
-        <p className="text-3xl sm:text-7xl md:9xl font-bold ">
+        <p className="text-3xl sm:text-6xl md:9xl font-bold ">
           <span className="sm:inline text-[#000000]">Train Hard.</span>
           <span className="sm:inline text-[#808DFD] ">Live Better</span>
         </p>
@@ -68,13 +68,13 @@ const Hero = () => {
       </div>
 
       <div className="bg-[#FFFFFF] p-2 h-32 w-screen flex  justify-center ">
-        <p className="text-3xl sm:text-7xl md:9xl font-bold ">
+        <p className="text-5xl sm:text-6xl md:9xl font-bold ">
           <span className="sm:inline text-[#000000]">JOIN THE </span>
           <span className="sm:inline text-[#808DFD] ">COMMUNITY</span>
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-12 bg-[#E9ECFF] ">
-        <div className="order-2 lg:order-1 sm:col-span-3 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 bg-[#E9ECFF] ">
+        <div className="order-2 lg:order-1 lg:col-span-3 md:col-span-1 ">
           <h1 className="text-3xl font-semibold mb-4 mt-4 ml-4">
             {" "}
             DISCOVER YOUR POTENTIAL
@@ -105,7 +105,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="order-1 lg:order-2 sm:col-span-9 ">
+        <div className="order-1 lg:order-2 lg:col-span-9  md:col-span-1">
           <Image
             src="/deadlift.png"
             alt="Hero Image"

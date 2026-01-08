@@ -10,48 +10,37 @@ const About = () => {
           <span className="sm:inline text-[#000000]">ABOUT US</span>
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-12 bg-[#808DFD] ">
-        <div className="order-2 lg:order-1 sm:col-span-8  p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12  ">
+        <div className="order-2 lg:order-1 md:col-span-1 lg:col-span-8  p-4 bg-[#808DFD]">
           <h1 className="text-4xl font-bold mb-4">
             {" "}
             TAP INTO YOUR PRIMAL POWER . FORGE A STRONGER YOU
           </h1>
-          <h1 className="text-2xl mt-30 lg:mt-58">OUR VISION</h1>
+          <h1 className="text-2xl md:mt-10 lg:mt-58">OUR VISION</h1>
           <p className="mt-10 mb-7">
             At Primal Fitness, our vision is to create a transformative fitness
             experience that empowers individuals to unlock their full potential.
             We strive to build a vibrant community where everyone feels
             inspired, supported, and motivated to achieve their health and
-            wellness goals. Through innovative training programs,
-            state-of-the-art facilities, and expert guidance, we aim to foster a
-            culture of strength, resilience, and holistic well-being. Our
-            commitment is to help each member discover their inner strength,
-            embrace a healthier lifestyle, and become the best version of
-            themselves.
+            wellness goals.
           </p>
         </div>
-        <div className="order-1 lg:order-2 sm:col-span-4 ">
-          <Image src="/ABOUT.jpg" alt="Hero Image" height={500} width={500} />
+        <div className="order-1 lg:order-2 md:col-span-1  lg:col-span-4 ">
+          <Image src="/ABOUT.jpg" alt="Hero Image" height={1200} width={1200} />
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 bg-[#E9ECFF] ">
-        <div className=" sm:col-span-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12  ">
+        <div className=" md:col-span-1 lg:col-span-8 ">
           <Image src="/about2.jpg" alt="Hero Image" height={300} width={1200} />
         </div>
-        <div className="sm:col-span-4  p-4">
+        <div className="md:col-span-1 lg:col-span-4  p-4 bg-[#E9ECFF]">
           <h1 className="text-4xl font-bold mb-4"> DYNAMIC OPEN GYM</h1>
-          <p className="mt-40 lg:mt-140 mb-7">
+          <p className="mt-30 lg:mt-140 mb-7">
             At Primal Fitness, our vision is to create a transformative fitness
             experience that empowers individuals to unlock their full potential.
             We strive to build a vibrant community where everyone feels
-            inspired, supported, and motivated to achieve their health and
-            wellness goals. Through innovative training programs,
-            state-of-the-art facilities, and expert guidance, we aim to foster a
-            culture of strength, resilience, and holistic well-being. Our
-            commitment is to help each member discover their inner strength,
-            embrace a healthier lifestyle, and become the best version of
-            themselves.
+            inspired, supported, and motivated to achieve their health.
           </p>
         </div>
       </div>
