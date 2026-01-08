@@ -106,17 +106,35 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="bg-[#808CFD] w-full h-100 flex flex-col justify-center items-center p-10">
-        <p className="text-black mt-4">
+      <div
+        className="bg-[#808DFD] w-full min-h-60 sm:min-h-75 lg:min-h-100
+                flex flex-col justify-center items-center
+                px-4 sm:px-6 lg:px-10
+                text-center border-b-2 border-black"
+      >
+        <p className="text-xs sm:text-sm md:text-base lg:text-lg text-black tracking-wide">
           WHAT WE BELIEVE IN
         </p>
 
-        <h1 className="text-3xl lg:text-6xl font-bold text-black ">
-          JOIN THE PRIMARY TRIBE TODAY
+        <h1
+          className="mt-2 sm:mt-4
+                 text-xl sm:text-3xl md:text-4xl lg:text-6xl
+                 font-bold text-black leading-tight"
+        >
+          JOIN THE PRIMAL TRIBE TODAY
         </h1>
-        <button className="bg-white text-black px-4 py-2 rounded-sm mt-6 cursor-pointer">
-          RESERVE YOUR SPOT
-        </button>
+
+        <Link href="/reserve">
+          <button
+            className="mt-4 sm:mt-6
+                       bg-[#E9ECFF] text-black
+                       px-4 sm:px-6 py-2 sm:py-3
+                       rounded-sm text-sm sm:text-base
+                       cursor-pointer"
+          >
+            RESERVE YOUR SPOT
+          </button>
+        </Link>
       </div>
     </div>
   );

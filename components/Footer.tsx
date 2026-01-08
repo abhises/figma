@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#E9ECFF] w-full h-150 p-8">
+    <div className="bg-[#E9ECFF] w-full h-170 p-8">
       <div className="grid grid-cols-1 lg:grid-cols-2  gap-4">
         <div>
           <Image
@@ -28,13 +28,20 @@ const Footer = () => {
           <p className="text-gray-600">123 Fitness Street, Gym City</p>
           <p className="text-gray-600">Phone: (123) 456-7890</p>
         </div>
-        <div className="col-span-4 flex-col justify-center mt-10 lg:mt-0 ">
+        <div className="col-span-4 flex-col justify-center mt-10 lg:mt-0 lg:ml-40">
           <h1 className="text-xl font-bold mb-4">OPENING HOURS</h1>
           <p className="text-gray-600">Monday - Friday: 6AM - 10PM</p>
           <p className="text-gray-600">Saturday - Sunday: 8AM - 8PM</p>
         </div>
         <div className="col-span-4 flex lg:justify-end    mt-10 lg:mt-0 ">
-          <h1 className="text-xl font-bold mb-4">SOCIAL</h1>
+          <div className="flex flex-col">
+            <h1 className="text-xl font-bold mb-4">SOCIAL</h1>
+            <p>Instagram</p>
+            <p>X</p>
+            <p>Linkedin</p>
+            <p>Spotify</p>
+          </div>
+
           {/* <p className="text-gray-600">Facebook | Twitter | Instagram</p> */}
         </div>
       </div>
